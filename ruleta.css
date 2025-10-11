@@ -1,0 +1,90 @@
+#contenedor-reloj-juego {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#reloj-juego {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  text-shadow: 0 0 6px #ccc;
+}
+
+.selector-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.selector-boton {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.selector-menu {
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  padding: 10px;
+  min-width: 160px;
+  text-align: center;
+}
+
+.selector-opcion {
+  padding: 10px;
+  margin-bottom: 6px;
+  background: #eee;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.selector-opcion:hover {
+  background: #ddd;
+}
+
+.resultado-item {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.resultado-item:hover {
+  transform: scale(1.02);
+  border-color: #fff;
+}
+
+.boton-juego {
+  background-color: #222;
+  color: #ccc;
+  border: 2px solid #888;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+
+.boton-juego:hover {
+  background-color: #444;
+  border-color: #aaa;
+  color: #fff;
+}
