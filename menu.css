@@ -64,7 +64,6 @@
 #menu {
   background-image: url('fondo.png');
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
@@ -146,4 +145,5 @@
 #titulo-juego {
   margin-top: 60px; /* o lo que necesites */
   background-color: transparent;
+
 }
