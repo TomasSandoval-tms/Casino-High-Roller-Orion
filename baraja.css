@@ -1,0 +1,166 @@
+#contenedor-reloj-juego {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#reloj-juego {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  text-shadow: 0 0 6px #ccc;
+}
+
+
+#menu-flotante-juego {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background: rgba(60, 0, 80, 0.95);
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 0 12px #000;
+}
+
+
+#selector-juego-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+#selector-juego {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  transition: background-color 0.3s ease;
+  appearance: none;
+}
+#selector-juego:hover {
+  background-color: #444;
+}
+
+
+.boton-juego {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  transition: background-color 0.3s ease;
+  font-family: 'Cinzel', serif;
+  margin: 6px;
+  margin-top: 20px;
+}
+.boton-juego:hover {
+  background-color: #444;
+}
+
+
+#contador-clicks,
+#carta-actual {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  margin-top: 24px;
+
+  text-shadow: 0 0 4px #ccc;
+}
+
+
+#historial-cartas {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 6px;
+  padding: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.3); /* contorno blanco translúcido */
+  border-radius: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 50px; /* Ajustable según cuánto querés bajarlo */
+
+}
+#historial-cartas::-webkit-scrollbar {
+  height: 6px;
+}
+#historial-cartas::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.carta-img {
+  width: 60px;
+  margin: 4px;
+}
+#carta-actual .carta-img {
+  margin-top: 40px; /* Ajustable según el espacio que querés */
+  width: 100px; /* o 120px si querés más impacto */
+  transition: width 0.3s ease;
+}
+
+
+#boton-volver {
+  margin-top: 80px; /* Ajustable según cuánto querés bajarlo */
+}
+
+
+#zona-cartas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.mazo-lateral {
+  width: 60px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px
+}
+.carta-mazo {
+  width: 100%;
+  transform: rotateY(180deg);
+  opacity: 0.6;
+  filter: brightness(0.8);
+}
+.mazo-lateral:hover .carta-mazo {
+  transform: rotateY(180deg) scale(1.05);
+  filter: brightness(1);
+  opacity: 0.8;
+}
+
+
+@keyframes salirDelMazo {
+  0%   { transform: translateX(-120px) scale(0.8); opacity: 0; }
+  50%  { transform: translateX(0) scale(1.2); opacity: 0.8; }
+  100% { transform: translateX(0) scale(1); opacity: 1; }
+}
+@keyframes moverAlMazoDerecho {
+  0%   { transform: translateX(0) scale(1); opacity: 1; }
+  100% { transform: translateX(120px) scale(0.7); opacity: 0; }
+}
+
+
+.animar-hacia-mazo {
+  animation: moverAlMazoDerecho 0.5s ease-in-out forwards;
+  position: absolute;
+  z-index: 10;
+}
+.animar-salida {
+  animation: salirDelMazo 0.6s ease-out;
+}

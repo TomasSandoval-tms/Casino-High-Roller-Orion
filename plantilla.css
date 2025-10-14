@@ -1,0 +1,59 @@
+#reloj-casino {
+  font-family: 'Digital-7 Mono', monospace;
+  font-size: 32px;
+  color: #FF3B3B;
+  background-color: #000;
+  padding: 8px 16px;
+  border: 2px solid gold;
+  border-radius: 8px;
+  text-shadow: 0 0 6px #FF3B3B;
+  display: inline-block;
+}
+.carton-estilo {
+  border: 2px solid #000; /* Borde negro de 2px */
+  border-radius: 8px;     /* Bordes redondeados opcionales */
+  padding: 10px;
+  font-size: 1.5rem; 
+  line-height: 2rem; 
+  text-align: center;          /* Espaciado interno para que no quede pegado */
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+  border: 2px solid #fff;               /* Borde blanco para contraste */
+  border-radius: 10px;                  /* Bordes redondeados */
+  padding: 12px;                        /* Espaciado interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+
+  margin-top: 25px;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px; /* Espacio entre resultados y botón */
+}
+
+#btn-carton,
+#btn-copiar-carton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+#btn-carton:hover,
+#btn-copiar-carton:hover {
+  background-color: #444;
+}
+
+#titulo-juego {
+  margin-top: 50px; /* o lo que necesites */
+  background-color: transparent;
+}
+
+#contador-central {
+  margin-top: 10px; /* ajustable */
+}
