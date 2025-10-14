@@ -26,7 +26,7 @@ function iniciarJuego() {
         '+Boleto🎫',
         '+Pluma de hermione🪶',
         '+Boleto🎫',
-        '+Amortemia💘🧪',
+        '+Amortentia💘🧪',
         '+Boleto🎫',
         '+Pastilla vomitivo💊',
         '+Boleto.🎫',
@@ -128,4 +128,5 @@ ${recompensas}
     alert('Formato con recompensas copiado al portapapeles.');
   });
     };
+
 }
