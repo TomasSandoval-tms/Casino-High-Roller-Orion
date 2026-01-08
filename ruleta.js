@@ -12,7 +12,6 @@ function iniciarJuego() {
         '+Boleto🎫',
         '+ Detonadores🪤',
         '+Boleto🎫',
-        '+ Mapa🗺',
         '+Boleto🎫',
         '+Varita de sauco🪄💀',
         '+Boleto🎫',
@@ -130,3 +129,4 @@ ${recompensas}
     };
 
 }
+
