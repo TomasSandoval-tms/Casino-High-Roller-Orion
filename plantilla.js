@@ -1,6 +1,6 @@
 
 function obtenerEmojisAleatorios(cantidad) {
-  const emojisDisponibles = ['🎫', '🐸', '🔮', '💚', '💊', '🩷', '💰', '💛', '💍', '🩵', '🧡', '🗺', '💡', '💌'];
+  const emojisDisponibles = ['🎫', '🐸', '🔮', '💚', '💊', '🩷', '💰', '💛', '💍', '🩵', '🧡', '💡', '💌'];
   const obligatorios = ['🎫', '🐸'];
   const copia = emojisDisponibles.filter(e => !obligatorios.includes(e));
   const seleccionados = [...obligatorios];
@@ -99,3 +99,4 @@ function iniciarJuego() {
 
   document.getElementById('btn-carton').addEventListener('click', iniciarCarton);
 }
+
