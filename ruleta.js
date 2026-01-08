@@ -10,7 +10,6 @@ function iniciarJuego() {
         '+Boleto🎫',
         '+20.000G💰',
         '+Boleto🎫',
-        '+ Detonadores🪤',
         '+Boleto🎫',
         '+Boleto🎫',
         '+Varita de sauco🪄💀',
@@ -129,4 +128,5 @@ ${recompensas}
     };
 
 }
+
 
