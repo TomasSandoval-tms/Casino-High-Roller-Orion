@@ -4,7 +4,7 @@ function iniciarJuego() {
         '+Traslador🔮',
         '+Desiluminador💡',
         '+Pluma de hermione🪶',
-        '+Llave de las 3 escobas🗝️',
+        '+Llave voladora🗝️',
         '+30.000G💰',
         '+ Boleto🎫',
         '+ 3.000G💰',
