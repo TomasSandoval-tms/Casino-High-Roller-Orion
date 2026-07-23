@@ -1,8 +1,8 @@
 function iniciarJuego() {
     const opciones = [
         '+Giratiempo⏱️',
-        '+Traslador🔮'
-        '+Desiluminador💡'
+        '+Traslador🔮',
+        '+Desiluminador💡',
         '+Pluma de hermione🪶',
         '+Llave de las 3 escobas🗝️',
         '+30.000G💰',
