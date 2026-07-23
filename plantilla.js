@@ -1,6 +1,6 @@
 
 function obtenerEmojisAleatorios(cantidad) {
-  const emojisDisponibles = ['🎫', '🐸', '❤️', '⏱️', '🪞', '🖤', '🪄', '🔮', '💚', '💊', '🩷', '💰', '💛', '💍', '🩵', '🧡', '💡', '💌'];
+  const emojisDisponibles = ['🎫', '🐸', '🪶', '🤍', '🗝️', '📜', '💜', '⏱️', '🖤', '🔮', '💰', '💛', '💍', '🧡', '💡'];
   const obligatorios = ['🎫', '🐸'];
   const copia = emojisDisponibles.filter(e => !obligatorios.includes(e));
   const seleccionados = [...obligatorios];
