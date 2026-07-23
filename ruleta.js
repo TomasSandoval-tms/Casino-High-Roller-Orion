@@ -1,5 +1,10 @@
 function iniciarJuego() {
     const opciones = [
+        '+Giratiempo⏱️',
+        '+Traslador🔮'
+        '+Desiluminador💡'
+        '+Pluma de hermione🪶',
+        '+Llave de las 3 escobas🗝️',
         '+30.000G💰',
         '+ Boleto🎫',
         '+ 3.000G💰',
@@ -12,21 +17,14 @@ function iniciarJuego() {
         '+Boleto🎫',
         '+Boleto🎫',
         '+Boleto🎫',
-        '+Varita de sauco🪄💀',
         '+Boleto🎫',
         '+pergamino📜',
         '+Boleto🎫',
-        '+Traslador🔮',
         '+Boleto🎫',
-        '+Giratiempo⏱️',
         '+Boleto🎫',
-        '+Felix felicis🧪🍀',
         '+Boleto🎫',
-        '+Pluma de hermione🪶',
         '+Boleto🎫',
-        '+Amortentia💘🧪',
         '+Boleto🎫',
-        '+Pastilla vomitivo💊',
         '+Boleto.🎫',
         '+Rana amarilla💛🍫',
         '+Boleto🎫',
@@ -44,11 +42,8 @@ function iniciarJuego() {
         '+Boleto🎫',
         '+Rana celeste🩵',
         '+Boleto🎫',
-        '+10 Fichas🎟',
         '+Boleto🎫',
-        '+15 Fichas🎟',
         '+Boleto🎫'
-
     ];
 
     let cantidadResultados = 3;
